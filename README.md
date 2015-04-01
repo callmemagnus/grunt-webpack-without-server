@@ -1,9 +1,11 @@
-# grunt-webpack
+# grunt-webpack-without-server
 
-Use [webpack](https://github.com/webpack/webpack) with grunt.
+This is a fork of [grunt-webpack](https://github.com/webpack/grunt-webpack) in order to remove the server dependency.
+
+Use [webpack](https://github.com/webpack/webpack) with grunt but without the dev server.
 
 ## Getting Started
-Install this grunt plugin next to your project's [Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-webpack`
+Install this grunt plugin next to your project's [Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-webpack-without-server`
 
 Then add this line to your project's `Gruntfile.js` gruntfile:
 
@@ -50,8 +52,8 @@ webpack: {
 }
 ```
 
-`grunt-webpack` uses the [webpack options](http://webpack.github.io/docs/configuration.html).
+`grunt-webpack-without-server` uses the [webpack options](http://webpack.github.io/docs/configuration.html).
 
 ## License
-Copyright (c) 2012-2014 Tobias Koppers @sokra  
+Copyright (c) 2012-2014 Tobias Koppers @sokra 
 Licensed under the MIT license.
